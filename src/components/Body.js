@@ -5,10 +5,10 @@ const Body = () => {
     <main style={styles.body}>
       <div style={styles.card}>
 
-        <img src={"/YuraAvatar.jpg"} alt="Yurii Surniak" style={styles.photo} />
+        <img src={"/Mariya-photo.jpg"} alt="Mariya Tarasyuk" style={styles.photo} />
         <div style={styles.textContainer}>
-          <h2 style={styles.name}>Yurii Surniak</h2>
-          <p style={styles.position}>Team Lead</p>
+          <h2 style={styles.name}>Mariya Tarasyuk</h2>
+          <p style={styles.position}>QA</p>
 
               <img src={"/chornyiAvatar.jpg"} alt="Andrii Chornyi" style={styles.photo} />
         <div style={styles.textContainer}>
