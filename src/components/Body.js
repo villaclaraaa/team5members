@@ -38,6 +38,15 @@ const Body = () => {
           <p style={styles.position}>Project Manager</p>
         </div>
       </div>
+
+      {/* Anastasia Shpilka */}
+      <div style={styles.card}>
+        <img src={"/AnastasiaAvatar.jpg"} alt="Anastasia Spilka" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Anastasia Spilka</h2>
+          <p style={styles.position}>Fullstack developer</p>
+        </div>
+      </div>
     </main>
   );
 };
