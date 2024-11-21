@@ -3,29 +3,45 @@ import React from "react";
 const Body = () => {
   return (
     <main style={styles.body}>
+      {/* Mariya Tarasyuk */}
       <div style={styles.card}>
-
         <img src={"/Mariya-photo.jpg"} alt="Mariya Tarasyuk" style={styles.photo} />
         <div style={styles.textContainer}>
           <h2 style={styles.name}>Mariya Tarasyuk</h2>
           <p style={styles.position}>QA</p>
-<img src={"/YuraAvatar.jpg"} alt="Yurii Surniak" style={styles.photo} />
+        </div>
+      </div>
+
+      {/* Yurii Surniak */}
+      <div style={styles.card}>
+        <img src={"/YuraAvatar.jpg"} alt="Yurii Surniak" style={styles.photo} />
         <div style={styles.textContainer}>
           <h2 style={styles.name}>Yurii Surniak</h2>
           <p style={styles.position}>Team Lead</p>
-              <img src={"/chornyiAvatar.jpg"} alt="Andrii Chornyi" style={styles.photo} />
+        </div>
+      </div>
+
+      {/* Andrii Chornyi */}
+      <div style={styles.card}>
+        <img src={"/chornyiAvatar.jpg"} alt="Andrii Chornyi" style={styles.photo} />
         <div style={styles.textContainer}>
           <h2 style={styles.name}>Andrii Chornyi</h2>
           <p style={styles.position}>UI/UX Designer</p>
-                          <img src={"/sf.png"} alt="Andrii Khreptak" style={styles.photo} />
-                          <div style={styles.textContainer}>
-                              <h2 style={styles.name}>Andrii Khreptak</h2>
-                              <p style={styles.position}>Project Manager</p>
+        </div>
+      </div>
+
+      {/* Andrii Khreptak */}
+      <div style={styles.card}>
+        <img src={"/sf.png"} alt="Andrii Khreptak" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Andrii Khreptak</h2>
+          <p style={styles.position}>Project Manager</p>
         </div>
       </div>
     </main>
   );
 };
+
 
 const styles = {
   body: {
