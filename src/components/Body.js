@@ -23,7 +23,7 @@ const Body = () => {
 
       {/* Andrii Chornyi */}
       <div style={styles.card}>
-        <img src={"/chornyiAvatar.jpg"} alt="Andrii Chornyi" style={styles.photo} />
+        <img src={"/pudge.png"} alt="Andrii Chornyi" style={styles.photo} />
         <div style={styles.textContainer}>
           <h2 style={styles.name}>Andrii Chornyi</h2>
           <p style={styles.position}>UI/UX Designer</p>
